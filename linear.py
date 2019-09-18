@@ -49,14 +49,14 @@ def main():
     m = np.random.randint(1, 100)
     b = np.random.randint(1, 100)
 
+    # data values used to predict line
     x = np.array([1, 2, 3, 4])
     y = np.array([2, 4, 6, 8])
 
     (m, b) = error_cost(m, b, x, y, 0.0001);
 
-    plt.set_cmap("jet")
     plt.scatter(x, y);
-    plt.plot(2*x);
+    plt.plot(m*x + b);
     plt.show();
 
 
