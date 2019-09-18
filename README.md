@@ -10,4 +10,4 @@ prediction.
 
 You need to have numpy and matplotlib installed.
 
-For some reason the plotting feature on matplotlib makes the prediction look really incorrect for some reason (not sure why).
+For some reason the plotting feature on matplotlib makes the prediction look really incorrect (not sure why).
