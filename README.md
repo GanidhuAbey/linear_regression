@@ -7,7 +7,4 @@ within the main function on the code their are to lines that hold the x and y da
 prediction.
 
 # Some Notes
-
 You need to have numpy and matplotlib installed.
-
-For some reason the plotting feature on matplotlib makes the prediction look really incorrect (not sure why).
