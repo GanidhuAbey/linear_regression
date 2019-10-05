@@ -50,14 +50,32 @@ def main():
     b = np.random.randint(1, 100)
 
     # data values used to predict line
-    x = np.array([1, 2, 3, 4])
-    y = np.array([2, 4, 6, 8])
+    x = np.array([8.8, 47.6, 26.8, 25.8, 27.8, 28.3, 16.7, 28.2, 107.4, 27.1, 13.0])
+    y = np.array([4.0, 14.1, 11.6, 21.6, 9.0, 13.5, 6.6, 12.7, 29.4, 9.1, 4.5])
 
     (m, b) = error_cost(m, b, x, y, 0.0001);
 
+    max_value = np.amax(x)
+    x_inputs = np.arange(max_value)
+
+    print(x_inputs)
     plt.scatter(x, y);
-    plt.plot(m*x + b);
+    plt.plot(m*x_inputs + b);
     plt.show();
 
 
 main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
